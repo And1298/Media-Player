@@ -1,0 +1,23 @@
+.bg-image{
+    background-image: url(./img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Sezione COVER */
+.img-cover{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    animation: rotateCover 3s infinite linear both;
+}
+
+/* ANIMAZIONE */
+@keyframes rotateCover {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
